@@ -17,8 +17,14 @@ body {
   object-position: 100% 100%;
   }
 
+.centeralpark{
+height: 200;
+width: 200;
+position: left;
+  }
+
   .rat{
-    height: 200;
+    height: 100;
     width: 100;
     background-image: url(https://i-cdn.embed.ly/1/display?key=fd92ebbc52fc43fb98f69e50e7893c13&url=http%3A%2F%2Fi.imgur.com%2F42afJcK.gif%3Fnoredirect);
     object-position: right;
@@ -39,7 +45,7 @@ body {
 
 .moving.train{
   width: 500vw;
-  height: 200vw;
+  height: 200vh;
   background-image: url(https://images.squarespace-cdn.com/content/v1/5d6eb116f7e22a0001b13f1f/1637730764356-4T63FEZKFN8NCYT6VJ57/train+2.gif?format=2500w);
   background-position: center;
   background-repeat:repeat-x;
