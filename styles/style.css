@@ -1,8 +1,51 @@
 body {
-  color: red;
+  width:100vw;
+  height: 100vw;  
+  background-color: #f0e68c;
+  background-image: url("../assets/img/mta_map_bg.png");
+  background-size: cover; 
+   }
+.image {
+  width: 200;
+  height: 100;
+  background-image: url(https://gifdb.com/images/high/new-york-city-subway-train-lgx6t4lnyvf741f4.gif);
+  background-position: center;
+  background-blend-mode: hue;
+  background-position-y: center;
+  text-align: center;
+  object-fit: scale-down;
+  object-position: 100% 100%;
+  }
+
+  .rat{
+    height: 200;
+    width: 100;
+    background-image: url(https://i-cdn.embed.ly/1/display?key=fd92ebbc52fc43fb98f69e50e7893c13&url=http%3A%2F%2Fi.imgur.com%2F42afJcK.gif%3Fnoredirect);
+    object-position: right;
+    background-repeat: no-repeat;
+    object-position: 250px 205px;
+  }
+
+.airplane{
+  width: 29px;
+  height: 10px;
+  background-image: url(https://bestanimations.com/media/aircraft/1711256742plane-travel-animated-gif-2.gif);
+  position: absolute;
+  top: 800px;
+  right:0;
+  background-repeat:unset;
+  
+}
+
+.moving.train{
+  width: 500vw;
+  height: 200vw;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d6eb116f7e22a0001b13f1f/1637730764356-4T63FEZKFN8NCYT6VJ57/train+2.gif?format=2500w);
+  background-position: center;
+  background-repeat:repeat-x;
 }
 
 h1 {
-  color: red;
+  color: white;
   font-family: monospace;
 }
